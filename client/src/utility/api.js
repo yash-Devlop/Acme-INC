@@ -1,4 +1,4 @@
 export const api = {
-    backend_url: 'http://localhost:8000'
+    backend_url: 'https://acme-inc.onrender.com'
 }
 
