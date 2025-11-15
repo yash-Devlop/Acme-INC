@@ -4,3 +4,7 @@ venv
 myenv
 .env
 pycache
+
+
+__pycache__/
+*.py[cod]
