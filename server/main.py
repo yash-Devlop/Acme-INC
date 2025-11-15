@@ -4,6 +4,7 @@ from pydantic import BaseModel, Field, HttpUrl
 from typing import Optional, List, Dict
 import concurrent.futures
 import json
+import uvicorn
 from datetime import datetime
 
 from database.database import DatabaseOperations
