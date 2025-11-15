@@ -65,6 +65,9 @@ async def lifespan(app: FastAPI):
     supabase_url = os.getenv("SUPABASE_URL")
     supabase_key = os.getenv("SUPABASE_KEY")
     connection_string = os.getenv("SUPABASE_DB_URL")
+    print(f"supabase_url: {supabase_url}")
+    print(f"supabase_key: {supabase_key}")
+    print(f"connection_string: {connection_string}")
     db = DatabaseOperations(supabase_url, supabase_key)
 
     db.init_database(connection_string)
